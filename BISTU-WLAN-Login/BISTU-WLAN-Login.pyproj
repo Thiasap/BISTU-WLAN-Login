@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bistu.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BISTU_WLAN_Login.py" />
+    <Compile Include="History\bistu_1.0.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="History\" />
