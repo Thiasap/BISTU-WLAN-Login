@@ -1,12 +1,12 @@
 #BISTU-WLAN-Login
 Login WLAN "BISTU" by python
 
-Run in terminal
+Run in terminal:
 ```
 python bistu.py -u username -p password
 ```
 
-Run with a json£º
+Run with a json:
 conf.json:
 ```xml
 {
@@ -14,7 +14,7 @@ conf.json:
 "password":"your password"
 }
 ```
-And then run£º
+And then run:
 ```
 python bistu.py -c conf.json
 ```
