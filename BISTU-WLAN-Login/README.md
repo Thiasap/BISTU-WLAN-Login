@@ -1,8 +1,8 @@
-#BISTU-WLAN-Login
+# BISTU-WLAN-Login
 
 Login WLAN "BISTU" by python
 
-#Run in terminal: 
+## Run in terminal: 
 
 ` python bistu.py -u username -p password `
 
@@ -12,7 +12,7 @@ You can use ` -s FILE ` to same login info in FILE, like:
 
 And use ` python -c login.json ` login next time. 
 
-#Run with a json:
+## Run with a json:
 
 make a new conf.json:
 
