@@ -7,7 +7,7 @@ from requests.packages import urllib3
 import codecs,json
 urllib3.disable_warnings()
 
-opts, args = getopt.getopt(sys.argv[1:], "hu:p:c:")
+opts, args = getopt.getopt(sys.argv[1:], "hu:p:c:s:")
 username=""
 password=""
 for op, value in opts:
@@ -25,6 +25,17 @@ for op, value in opts:
     	params = json.loads(conf)
     	username = params['username']
     	password = params['password']
+    elif op == "-s":
+        save={  
+                'username':username,
+                'password':password
+        }
+        jsObj = json.dumps(save)  
+        out = open(value,'w')  
+        out.write(jsObj)  
+        out.close() 
+        print "Save Successful !" 
+
 
 url="https://1.1.1.1/login.html"
 slen=3120
