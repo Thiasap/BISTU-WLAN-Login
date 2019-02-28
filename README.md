@@ -2,7 +2,11 @@
 
 Login WLAN "BISTU" by python
 
-## get bistu.py in:
+## Windwos EXE Version  
+Windows版本最新版
+https://github.com/Thiasap/BISTU-WLAN-Login/releases
+
+## Get bistu.py in:
 
 https://github.com/Thiasap/BISTU-WLAN-Login/tree/master/BISTU-WLAN-Login
 
